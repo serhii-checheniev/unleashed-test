@@ -1,0 +1,23 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "test",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "main": "main.js",
+  "author": "SC",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ],
+  "sideEffects": false,
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {}
+}

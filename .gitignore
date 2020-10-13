@@ -1,0 +1,11 @@
+# Node modules #
+################
+node_modules
+
+# IDE Files #
+#############
+.idea
+
+# Eextensions #
+###############
+*.map
