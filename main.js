@@ -59,9 +59,10 @@ $(document).ready(function() {
         var contactItemHTML = '';
 
         if (!arr.length) {
+            // Clear contact lists:
+            $(listIDSelector).html('');
             return true;
         }
-
         arr.forEach(function (entry) {
             var isFav = entry.fav ? "contact-item-fav" : ''; // spec. class.
 
